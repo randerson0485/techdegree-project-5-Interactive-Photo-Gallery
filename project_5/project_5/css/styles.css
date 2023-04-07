@@ -1,0 +1,25 @@
+html{background-color: ghostwhite;}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(250px, 300px) );
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+} 
+
+.move_over_please{
+    display: grid;
+    justify-content: center;
+}
+.textfield{
+    height: 2em;
+    width: 80%;
+    background-color: rgb(180, 215, 248);
+}
+
+.thumb{
+    padding: 10px;
+    height: 15em;
+    width: 15em;
+}
